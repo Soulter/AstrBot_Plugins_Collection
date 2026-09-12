@@ -13251,5 +13251,21 @@
     "desc": "过滤消息段中的think",
     "repo": "https://github.com/zgojin/astrbot_plugin_thinkTags",
     "category": "utilities"
+  },
+  "astrbot_plugin_dsh": {
+    "display_name": "DSH 桥",
+    "short_desc": "把指定会话接给本机 DeepSeek Harness，写代码 / 跑工具",
+    "desc": "把群聊 / 私聊接到本机运行的 DeepSeek Harness（DSH）：由它在你的电脑上写代码、跑命令、读写文件，过程和结果实时回到聊天；文本、图片、文件双向传递，权限确认与提问可直接在聊天里回复，不接管 AstrBot 的日常聊天。需先在本机装好 DSH 并启用 dsh-astrbot-ingress 入站插件。",
+    "author": "CCYellowStar2",
+    "repo": "https://github.com/CCYellowStar2/astrbot_plugin_dsh",
+    "category": "ai_tools",
+    "tags": [
+      "dsh",
+      "deepseek-harness",
+      "coding-agent",
+      "编程代理",
+      "远程开发"
+    ],
+    "social_link": "https://github.com/CCYellowStar2"
   }
 }
